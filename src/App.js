@@ -24,7 +24,7 @@ function App() {
       setTasks(data);
       // console.log(data);
     } catch (error) {
-      return <h1>Oops there is an error: {error}</h1>;
+      return <h1>There is an error: {error}</h1>;
     }
   };
 
